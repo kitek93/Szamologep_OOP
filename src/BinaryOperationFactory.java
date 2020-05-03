@@ -1,7 +1,7 @@
 
 public class BinaryOperationFactory {
 
-    public BinaryOperation getBinaryOpSymbol(String s) {
+    public BinaryOperation getBinaryOpBySymbol(String s) {
 
         if ("+".equals(s))  {
             return new Add();
